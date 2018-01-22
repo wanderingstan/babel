@@ -168,6 +168,10 @@ a PO template file::
                             do not use fuzzy matching (default False)
       --previous            keep previous msgids of translated messages (default
                             False)
+      -w WIDTH, --width=WIDTH
+                            set output line width (default 76)
+      --no-wrap             do not break long message lines, longer than the
+                            output line width, into several lines
 
 If ``output_dir`` is specified, but ``output-file`` is not, the default
 filename of the output file will be::
